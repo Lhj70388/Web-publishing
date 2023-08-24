@@ -1,0 +1,27 @@
+/*CSS Document*/
+*{ 
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    background-image: url("../images/pattern.jpg");
+}
+
+header img{
+    width: 100%;
+}
+
+#container{
+    background-color: white; padding: 5%;
+}
+
+.content-text{
+    padding:1%;
+}
+
+footer{
+    background-color: yellow;
+}

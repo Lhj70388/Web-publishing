@@ -1,0 +1,143 @@
+@import url(../webfont/PorterBold/stylesheet.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+
+}
+
+header {
+    background-color: #f3f4f2;
+    height: 75px;
+    text-align: center;
+    margin: auto;
+    line-height: 75px;
+    font-family: 'porterbold_demo', Arial;
+    font-size: 109%;
+    text-transform: uppercase;
+
+}
+
+
+header nav {
+    float: center;
+    margin-left: 20%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 75px;
+    font-weight: bold;
+}
+
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #5A5654;
+    transition: 0.2s ease-in-out;
+}
+
+header a:hover {
+    color: #979493;
+}
+
+header img {
+    float: left;
+    width: 5.8%;
+    height: 99%;
+    margin-left: 8%;
+
+}
+
+.contact-container {
+    margin-bottom: 4%;
+}
+
+h1 {
+    margin-bottom: 11%;
+    font-size: 311%;
+    font-weight: 83;
+    color: #707070;
+    height: auto;
+    text-decoration-line: underline;
+}
+
+.contact-box {
+    width: 50%;
+    float: left;
+    margin-top: -4%;
+    margin-left: 9%;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #929292;
+    font-size: 114%;
+}
+
+input[type=submit] {
+    font-family:'latinaires_proregular', sans-serif;
+    padding: 8px 16px;
+    color: #707070;
+    text-decoration: underline;
+    background:none;
+    border:none;
+    font-size: 129%;
+    font-weight: 96%;
+    margin-top: 4%;
+}
+
+input[type=submit]:hover{
+    color: #979493;
+    font-weight: 600%;
+}
+
+#container img {
+    margin-top: -10%;
+    margin-left: 72%;
+    height: 68%;
+}
+
+#container2 {
+    margin-top: 7%;
+    margin-left: 80%;
+}
+
+#container2 img {
+    height: 30%;
+    width: 19%;
+    margin-top: -5%;
+    margin-left: 18%;
+
+}
+
+#container3 {
+    margin-top: -1.2%;
+    margin-left: 85%;
+}
+
+#container3 img {
+    height: 30%;
+    width: 31%;
+    margin-top: -33%;
+    margin-left: 20%;
+}
+
+footer {
+    text-align: center;
+    margin-top: -4%;
+}
